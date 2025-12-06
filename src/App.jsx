@@ -1,3 +1,13 @@
+/**
+ * Portfolio Website - Main Application
+ * 
+ * Copyright (c) 2025 Karamvir Singh. All Rights Reserved.
+ * 
+ * This code is proprietary and confidential.
+ * Unauthorized copying, modification, or distribution is strictly prohibited.
+ * For viewing purposes only.
+ */
+
 // src/App.jsx with direct scroll control and mobile warning
 import React, { useState, useEffect } from 'react';
 import LoadingScreen from './components/layout/LoadingScreen';
