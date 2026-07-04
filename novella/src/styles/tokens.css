@@ -1,0 +1,18 @@
+:root {
+  --nv-accent: #3b82f6;
+  --nv-accent-hover: #2563eb;
+  --nv-accent-secondary: #a855f7;
+  --nv-accent-tertiary: #ec4899;
+  --nv-accent-muted: rgba(59, 130, 246, 0.12);
+  --nv-accent-border: rgba(59, 130, 246, 0.35);
+  --nv-ink: #f8fafc;
+  --nv-muted: #94a3b8;
+  --nv-border: #374151;
+  --nv-surface: #111827;
+  --nv-surface-elevated: rgba(31, 41, 55, 0.6);
+  --nv-card: rgba(31, 41, 55, 0.8);
+  --nv-radius-sm: 0.5rem;
+  --nv-radius-md: 0.75rem;
+  --nv-radius-lg: 1rem;
+  --nv-radius-xl: 1.25rem;
+}

@@ -14,6 +14,7 @@ import LoadingScreen from './components/layout/LoadingScreen';
 import Hero from './components/sections/Hero';
 import About from './components/sections/About';
 import Projects from './components/sections/Projects';
+import Labs from './components/sections/Labs';
 import Skills from './components/sections/Skills';
 import ResearchPapers from './components/sections/BloggingPublications';
 import Interests from './components/sections/Interests';
@@ -277,7 +278,7 @@ const MobileWarning = () => {
 
                   {/* Desktop Navigation */}
                   <div className="hidden md:flex items-center gap-6">
-                    {['Home', 'About', 'Projects', 'Skills', 'Research', 'Citations','Interests', 'Ideas', 'Contact'].map((item) => {
+                    {['Home', 'About', 'Projects', 'Labs', 'Skills', 'Research', 'Citations','Interests', 'Ideas', 'Contact'].map((item) => {
                       const sectionId = item.toLowerCase() === 'home' ? 'hero' : item.toLowerCase();
                       return (
                         <button
@@ -324,6 +325,10 @@ const MobileWarning = () => {
 
             <div id="projects">
               <Projects navigateToSection={navigateToSection} />
+            </div>
+
+            <div id="labs">
+              <Labs />
             </div>
 
             <div id="research">

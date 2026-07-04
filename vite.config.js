@@ -4,7 +4,14 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 3000,
+    port: 5173,
+    hmr: { port: 24679 },
+    watch: {
+      ignored: ['**/novella/**'],
+    },
+  },
+  optimizeDeps: {
+    entries: ['./index.html'],
   },
   build: {
     outDir: 'dist',

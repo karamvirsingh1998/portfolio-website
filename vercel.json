@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm install && npm install --prefix novella && npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api" },
+    { "source": "/novella", "destination": "/novella/index.html" },
+    { "source": "/novella/", "destination": "/novella/index.html" }
+  ],
+  "functions": {
+    "api/index.ts": {
+      "maxDuration": 60
+    }
+  }
+}
