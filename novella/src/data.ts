@@ -8,7 +8,7 @@ export const ART_STYLES: ArtStyle[] = [
     promptAddon:
       'Fantasy watercolor illustration style, soft pastel colors, delicate brush strokes, ethereal lighting, whimsical atmosphere, hand-painted texture',
     previewUrl:
-      'https://images.unsplash.com/photo-1579783902610-f72ea533cedf?w=400&h=300&fit=crop',
+      'https://images.unsplash.com/photo-1753184649034-cadec03611da?w=400&h=300&fit=crop',
     bgColor: 'from-blue-900/80 to-purple-900/80',
   },
   {
@@ -18,7 +18,7 @@ export const ART_STYLES: ArtStyle[] = [
     promptAddon:
       'Cyberpunk neon aesthetic, vibrant electric colors, rain-slick reflective surfaces, holographic glow, dystopian futuristic cityscape, high contrast lighting',
     previewUrl:
-      'https://images.unsplash.com/photo-1550745165-9bc0b4b6836e?w=400&h=300&fit=crop',
+      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop',
     bgColor: 'from-purple-900/80 to-pink-900/80',
   },
   {
@@ -28,7 +28,7 @@ export const ART_STYLES: ArtStyle[] = [
     promptAddon:
       'Retro comic book style, bold black ink outlines, halftone dot shading, vibrant primary colors, dynamic action poses, vintage pulp magazine aesthetic',
     previewUrl:
-      'https://images.unsplash.com/photo-1612036782180-6f0b6cd8460a?w=400&h=300&fit=crop',
+      'https://images.unsplash.com/photo-1634828221818-503587f33d02?w=400&h=300&fit=crop',
     bgColor: 'from-red-900/80 to-yellow-900/80',
   },
   {
@@ -38,7 +38,7 @@ export const ART_STYLES: ArtStyle[] = [
     promptAddon:
       'Classic oil painting style, rich impasto textures, chiaroscuro lighting, Renaissance composition, warm golden tones, museum-quality fine art',
     previewUrl:
-      'https://images.unsplash.com/photo-1579783901580-d79362f1d588?w=400&h=300&fit=crop',
+      'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=400&h=300&fit=crop',
     bgColor: 'from-amber-900/80 to-orange-900/80',
   },
   {
@@ -48,7 +48,7 @@ export const ART_STYLES: ArtStyle[] = [
     promptAddon:
       'Anime manga studio style, expressive large eyes, cel-shaded coloring, dynamic speed lines, vibrant saturated palette, Japanese animation aesthetic',
     previewUrl:
-      'https://images.unsplash.com/photo-1613376023733-0a73315d9a06?w=400&h=300&fit=crop',
+      'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=400&h=300&fit=crop',
     bgColor: 'from-blue-900/80 to-indigo-900/80',
   },
   {
@@ -68,7 +68,7 @@ export const ART_STYLES: ArtStyle[] = [
     promptAddon:
       'Pastel chalk sketch style, soft smudged strokes, textured paper background, gentle muted colors, hand-drawn illustration feel, artistic sketch quality',
     previewUrl:
-      'https://images.unsplash.com/photo-1513364774238-30d67c0a0de0?w=400&h=300&fit=crop',
+      'https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=300&fit=crop',
     bgColor: 'from-slate-700/80 to-stone-800/80',
   },
   {
@@ -78,7 +78,7 @@ export const ART_STYLES: ArtStyle[] = [
     promptAddon:
       'Cinematic photograph style, film-grade realism, dramatic volumetric lighting, shallow depth of field, anamorphic lens flare, movie still quality',
     previewUrl:
-      'https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=400&h=300&fit=crop',
+      'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400&h=300&fit=crop',
     bgColor: 'from-zinc-900/80 to-neutral-900/80',
   },
 ];
