@@ -3,7 +3,5 @@ import { createApp } from '../novella/lib/create-app';
 
 loadEnv();
 
-const app = createApp();
-
-/** CJS export (.cjs) — root package.json is ESM so .js would be misread as ESM. */
-module.exports = app;
+/** Vercel @vercel/node runs Express apps via default export. */
+export default createApp();
