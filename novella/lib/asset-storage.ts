@@ -1,11 +1,9 @@
 import path from 'path';
 import { mkdirSync, writeFileSync, rmSync, existsSync } from 'fs';
-import { fileURLToPath } from 'url';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const STORAGE_ROOT = process.env.VERCEL
   ? '/tmp/novella/assets'
-  : path.resolve(__dirname, '../storage/assets');
+  : path.resolve(process.cwd(), 'novella/storage/assets');
 
 mkdirSync(STORAGE_ROOT, { recursive: true });
 

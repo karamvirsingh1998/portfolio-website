@@ -1,13 +1,11 @@
 import { readFileSync, existsSync } from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
 
-/** Loads `.env` into process.env (does not override existing vars). */
+/** Loads `novella/.env` into process.env (does not override existing vars). */
 export function loadEnv(): void {
-  const envPath = path.resolve(
-    path.dirname(fileURLToPath(import.meta.url)),
-    '../.env',
-  );
+  if (process.env.VERCEL) return;
+
+  const envPath = path.resolve(process.cwd(), 'novella/.env');
   if (!existsSync(envPath)) return;
 
   for (const line of readFileSync(envPath, 'utf-8').split('\n')) {

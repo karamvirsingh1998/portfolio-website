@@ -1,12 +1,10 @@
 import Database from 'better-sqlite3';
 import path from 'path';
 import { mkdirSync } from 'fs';
-import { fileURLToPath } from 'url';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = process.env.VERCEL
   ? '/tmp/novella'
-  : path.resolve(__dirname, '../storage');
+  : path.resolve(process.cwd(), 'novella/storage');
 const DB_PATH = path.join(DATA_DIR, 'novella.db');
 
 mkdirSync(DATA_DIR, { recursive: true });
