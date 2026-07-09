@@ -1,7 +1,7 @@
 .vercel
 node_modules
 dist
-api/index.js
+api/index.cjs
 novella/storage
 novella/node_modules
 .env

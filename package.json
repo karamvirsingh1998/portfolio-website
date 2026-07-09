@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx scripts/dev.ts",
     "build": "vite build && npm run build:vite --prefix novella && npm run build:api",
-    "build:api": "esbuild api/handler.ts --bundle --platform=node --target=node20 --format=cjs --outfile=api/index.js --external:better-sqlite3",
+    "build:api": "esbuild scripts/api-handler.ts --bundle --platform=node --target=node20 --format=cjs --outfile=api/index.cjs --external:better-sqlite3",
     "build:portfolio": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
